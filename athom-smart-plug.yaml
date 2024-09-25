@@ -156,6 +156,7 @@ sensor:
     device_class: ""
 
   - platform: cse7766
+    id: cse7766_sensor
     current:
       name: "Current"
       filters:
